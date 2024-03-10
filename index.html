@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-COMMERCE WEBSITE PORTFOLIO</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div id="menu-btn" class="fas fa-bars"></div>
+
+        <a href="#" class="logo">E-COMMERCE WEBSITE PORTFOLIO <i class="fas fa-shopping-cart"></i></a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#contact">contact</a>
+        </nav>
+
+        <!-- <a href="#" class="btn">Login/Signup</a> -->
+    </header>
+
+    <!-- HOME -->
+    <section class="home" id="home">
+       
+            
+        <div id="demo" class="carousel slide" data-ride="carousel">
+
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+              <li data-target="#demo" data-slide-to="0" class="active"></li>
+              <li data-target="#demo" data-slide-to="1"></li>
+              <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+            
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="image/banner-3.jpg" alt="Los Angeles" width="1100" height="500">
+              </div>
+              <div class="carousel-item">
+                <img src="image/banner-2.png" alt="Chicago" width="1100" height="500">
+              </div>
+              <div class="carousel-item">
+                <img src="image/banner-1.png" alt="New York" width="1100" height="500">
+              </div>
+            </div>
+            
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
+          
+    </section>
+
+     <!-- ABOUT -->
+     <section class="about" id="about">
+        <h1 class="heading">about us <span>why choose us</span></h1>
+
+        <div class="row">
+            <div class="image">
+                <img src="image/web_developer.jpg" alt="">
+            </div>
+
+            <div class="content">
+                <p> We understand the value of having an involvement with the site in today's technological time and make it a point to combine all digital marketing angles such as web design and related to web design only, web development, CMS development, E-commerce website and more to yield exceptional results. We will work with competence and  complete all projects on time and without delay since we realize how important it is for you to have a website developed as soon as possible.</p>
+            
+                <h3>Technologies we work with</h3>
+                <div class="row">
+                  <div class="icons">
+                    <div class="col-xs-3 col-sm-2 col-md-2 skill-icon">
+                        <img class="img-responsive" src="image/html.png" title="HTML5">
+                    </div>
+                    <div class="col-xs-3 col-sm-2 col-md-2 skill-icon">
+                      <img class="img-responsive" src="image/css.png" title="CSS">
+                    </div>
+                    <div class="col-xs-3 col-sm-2 col-md-2 skill-icon">
+                      <img class="img-responsive" src="image/javascript.png" title="JS">
+                    </div>
+                    <div class="col-xs-3 col-sm-2 col-md-2 skill-icon">
+                      <img class="img-responsive" src="image/react.png" title="React">
+                    </div>
+                    <div class="col-xs-3 col-sm-2 col-md-2 skill-icon">
+                      <img class="img-responsive" src="image/jquery.jpg" title="Jquery">
+                    </div>
+                    <div class="col-xs-3 col-sm-2 col-md-2 skill-icon">
+                      <img class="img-responsive" src="image/mysql.jpg" title="MySQL">
+                    </div>
+                    <div class="col-xs-3 col-sm-2 col-md-2 skill-icon">
+                      <img class="img-responsive" src="image/linux.jpg" title="Linux">
+                    </div>
+                    <div class="col-xs-3 col-sm-2 col-md-2 skill-icon">
+                      <img class="img-responsive" src="image/nodejs.png" title="Node JS">
+                    </div>
+                    <div class="col-xs-3 col-sm-2 col-md-2 skill-icon">
+                      <img class="img-responsive" src="image/bootstrap.jpg" title="Bootstrap">
+                    </div>
+                    <div class="col-xs-3 col-sm-2 col-md-2 skill-icon">
+                      <img class="img-responsive" src="image/github.png" title="Github">
+                    </div>
+                  </div>
+                </div>
+              </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="book" id="contact">
+      <h1 class="heading">Mail<span>Contact Us</span></h1>
+
+      <form method="post" action="https://formspree.io/f/mrgnleaw">
+          <input id="name" name="Name" type="text" placeholder="Name" class="box" required>
+          <input id="email" name="Email" type="email" placeholder="Email" class="box" required>
+          <textarea id="message" name="Message" name="" placeholder="Message" class="box" id="" cols="30" rows="10" required></textarea>
+          <input type="submit" value="send message" class="btn">
+      </form>
+    </section>
+
+    <!-- FOOTER -->
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#home"><i class="fas fa-arrow-right"></i> home</a>
+            <a href="#about"><i class="fas fa-arrow-right"></i> about</a>
+            <a href="#contact"><i class="fas fa-arrow-right"></i> contact</a>
+        </div>
+
+
+        <div class="box">
+            <h3>Connect Us</h3>
+            <a href="https://www.instagram.com/diya_james_/"><i class="fab fa-instagram"></i> instagram</a>
+            <a href="https://www.linkedin.com/in/diyas97/"><i class="fab fa-linkedin"></i> linkedin</a>
+            <a href="https://github.com/diyajamess/"><i class="fab fa-github-alt"></i> Github</a>
+        </div>
+      </div>
+
+      <div class="credit">created by <span>Diya James</span> | all rights reserved</div>
+    </section>
+</body>
+</html>
